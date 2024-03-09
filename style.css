@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+
+/* NAV */
+.logo{
+    width: 80px;
+    border-radius: 10px;
+}
+
+nav, .nav-cent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    padding: 20px;
+    margin: 20px;
+    background-color: #EAEBEB;
+    border-radius: 5px;
+}
+
+.nav-cent{
+    width: 60%;
+}
+
+.nav-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.nav-li a {
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding: 15px;
+    background-color: #1B3A09;
+    color: white;
+    border-radius: 10px;
+}
+
+/* NOVEDADES */
+
