@@ -1,45 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 25px;
 }
-ul, li{
+
+ul,
+li {
     list-style: none;
 }
 
 /* NAV */
-.logo{
+.logo {
     width: 80px;
     border-radius: 10px;
 }
 
-nav, .nav-cent{
+nav,
+.nav-cent {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav{
+nav,
+footer {
     padding: 20px;
     margin: 20px;
     background-color: #EAEBEB;
     border-radius: 5px;
 }
 
-.nav-cent{
+.nav-cent {
     width: 60%;
 }
 
-.nav-li{
+.nav-li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 40%;
 }
+
 .nav-li a {
     text-decoration: none;
     color: black;
 }
-.btn{
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
     padding: 15px;
     background-color: #1B3A09;
     color: white;
@@ -47,4 +60,197 @@ nav{
 }
 
 /* NOVEDADES */
+section {
+    margin: 20px;
 
+}
+
+.sec-tit {
+    padding: 15px;
+    background-color: #1B3A09;
+    color: white;
+    border-radius: 10px;
+}
+
+.nov {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.nov-container,
+.premio-container,
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.nov-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#nov1 {
+    background-image: url(images/comida/mondongo2.jpg);
+}
+
+#nov2 {
+    background-image: url(images/comida/riñones.jpeg);
+}
+
+#nov3 {
+    background-image: url(images/comida/calamaresescarpeta.jpg);
+}
+
+section h1 {
+    background-color: #EAEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section p {
+    hyphens: auto;
+    font-size: large;
+}
+
+.premio {
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#prem1 {
+    background-image: url(/images/premios/Ilusiones.jpg);
+}
+
+#prem2 {
+    background-image: url(/images/premios/Sodero.jpg);
+}
+
+#prem3 {
+    background-image: url(/images/premios/Asesinas.jpg);
+}
+
+.menu-container {
+    gap: 100px;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.img-card {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#P1 {
+    background-image: url(/images/comida/fussilliferretto.jpg);
+}
+
+#P2 {
+    background-image: url(/images/comida/ranas.jpg);
+}
+
+#P3 {
+    background-image: url(/images/comida/caracoles2.jpg);
+}
+
+#P4 {
+    background-image: url(/images/comida/rabascalabria.jpg);
+}
+
+#P5 {
+    background-image: url(/images/comida/merluza.jpg);
+}
+
+#P6 {
+    background-image: url(/images/comida/gambas.jpg);
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.nosotros-img {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(/images/web/propetario.jpeg);
+}
+
+.nosotros-text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.contact-text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.horario {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#aniv {
+
+    width: 80px;
+    border-radius: 10px;
+}
+
+.aniv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
